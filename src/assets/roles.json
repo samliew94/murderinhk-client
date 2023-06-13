@@ -1,0 +1,28 @@
+{
+    "basic":{
+        "minPlayers":4,
+        "FORENSIC":{
+            "name":"FORENSIC SCIENTIST",
+            "desc":"Assist investigators to find correct 'Clue' and 'Mean'"
+        },
+        "MURDERER":{
+            "name":"MURDERER",
+            "desc":"Prevent capture by giving false info to Investigators"
+        },
+        "INVESTIGATOR":{
+            "name":"INVESTIGATOR",
+            "desc":"Identify the murderer by choosing the right 'Clue' and 'Mean'"
+        }
+    },
+    "optional":{
+        "minPlayers":6,
+        "ACCOMPLICE":{
+            "name":"ACCOMPLICE",
+            "desc":"Knows the Murderer, Clue and Mean. Wins if Murderer wins"
+        },
+        "WITNESS":{
+            "name":"WITNESS",
+            "desc":"Knows the Murderer and Accomplice. Wins if not caught by Murderer."
+        }
+    }
+}
